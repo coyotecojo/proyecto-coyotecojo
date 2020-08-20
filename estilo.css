@@ -1,0 +1,51 @@
+body{
+    background:turquoise;
+    font-family:arial,helvetica 
+}
+  #principal{
+      width: 1100px;
+      margin: 0px auto;
+      border: 2px solid black;
+  }
+  header{
+      background:rgb(6, 122, 109);
+    line-height: 110%;
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    border-bottom: 1px dashed black;
+  }
+  nav{background:lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+
+  }
+  nav ul li{
+      float: left;
+      list-style:none;
+      margin: 10px;
+  }
+  .clearfix{
+      clear: both;
+
+  }
+  #contenido{
+      float: left;
+      background:yellow;
+      min-width: 1000px;
+      width: 70%;
+    
+  }
+  .article{
+color: black;
+margin-top:15px ;
+margin-bottom: 15px;
+padding-bottom: 10px;
+  }
+
+
+ aside{
+     float: left;
+     width: 30%;
+     background: black;
+     min-width: 1000px;
+ }
